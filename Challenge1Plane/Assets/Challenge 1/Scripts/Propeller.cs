@@ -9,6 +9,6 @@ public class Propeller : MonoBehaviour
     void Update()
     {
         // MaxG: Add to rotation every tick.
-        transform.Rotate(Vector3.right * RotationRate * Time.deltaTime);
+        transform.Rotate(Vector3.forward * RotationRate * Time.deltaTime);
     }
 }
